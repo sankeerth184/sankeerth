@@ -1,0 +1,55 @@
+
+h1{
+    background-color: rgb(137, 118, 222);
+    width: 120px;
+    height: 80px;
+    transform: scale(1);
+    transform: translate(20px);
+    transform: rotate(20deg);
+    transform: skew(300deg);
+    h2{
+        background-color: rgb(137, 118, 222);
+        height: 80px;
+        transition-property: background-color transform;
+        transition-duration: 3s;
+        transition-timing-function: ease;
+        transition-delay: 2s;
+
+      }
+      
+ h1:hover{
+    background-color: rgb(50, 15, 209);
+    transform: rotate(180deg);
+ }
+ div{
+     width: 120px;
+    height: 80px;
+    background-color:(red, green, blue, alpha);
+    animation-name: colorr;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes colorr{
+    0%{
+        background-color: rgb(137, 118, 222);
+    }
+    25%{
+        background-color: rgb(50, 15, 209);
+    }
+    50%{
+        background-color: rgb(137, 118, 222);
+    }
+    75%{
+        background-color: rgb(50, 15, 209);
+    }
+    100%{
+        background-color: rgb(137, 118, 222);
+    }
+
+ 
+}
+}

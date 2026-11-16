@@ -1,0 +1,36 @@
+div {
+    color: rgb(137, 118, 222);
+    border: 3px solid rgba(0, 0, 0, 0.033); /* Added 'solid' for proper border style */
+}
+
+
+
+p {
+    color: black;
+    min-height: 500px; /* Added 'px' unit */
+    
+    background-image: url("tfi-we-have-won-v0-debwpiaickif1.webp");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    color: unset;
+
+}
+/*box model*/
+h1{
+
+color: blue;
+border: 3px;color: brown;
+/*padding : 25 px; */
+padding-left: 30px;
+padding-right:5px ;
+padding-top:5px ;
+padding-bottom: 15px;
+margin: 15px;
+/*margin-top:;*/
+
+
+
+}
